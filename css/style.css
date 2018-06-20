@@ -1,0 +1,236 @@
+html{
+	font-size: 10px;
+	font-family: 'Exo 2', sans-serif;
+}
+/*Главная форма*/
+section#main{
+	height: 100vh;
+	background: url('../img/main.png') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color:#000;
+}
+
+.main-header{
+	position: absolute;
+	background: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.main-header h1{
+	font-weight: 400;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+.main-header p{
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+.main-line{
+	height: 1px;
+	background-color: #000;
+	width: 80%;
+	display: block;
+	margin-left: 10%;
+}
+/*услуги*/
+section#service{
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+	text-align: center;
+}
+
+.service-header h2{
+	font-weight: 700;
+	font-size: 2rem;
+	color: #000;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.service-header p{
+	font-weight: 400;
+	font-size: 2rem;
+	color: #000;
+	display: block;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
+/*Галерея*/
+section#galeri{
+	padding-top: 0rem;
+	padding-bottom: 5rem;
+	text-align: center;
+	/*height: 50vh;
+	border-color: #000;*/
+}
+
+.main-galeri a{
+	text-decoration: none;
+}
+
+.main-galeri h2{
+	font-weight: 700;
+	font-size: 2rem;
+	color: #000;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.galeri-block{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: 0 auto; /*будет по центру*/
+	width: 1000px;
+	/*background-color: #aeaeae;*/
+	font-size: 0;
+}
+
+.galeri-box{
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+}
+
+.galeri-box img{
+	width: 100%;
+	max-width: 250px;
+}
+/*footer*/
+footer{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	/*background-color: #aeaeae;*/
+	background-color: #c7c7c7;
+	font-size: 0;
+}
+
+.footer-info{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin: 0 auto; /*будет по центру*/
+	width: 1000px;
+	/*background-color: #000;*/
+	font-size: 0;
+}
+
+.footer-box{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	/*line-height:3.5rem;*/
+	vertical-align: middle;
+}
+.social{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	line-height:1.5rem;
+	vertical-align: middle;
+	margin-bottom: 2rem
+}
+
+.feedback{
+	margin-top: 2rem;
+	display: inline-block;
+	/*width: 33.33%;*/
+	width: 100%;
+	text-align: center;
+	line-height:1.5rem;
+	vertical-align: middle;
+}
+.social-box{
+	text-align: center;
+	width: 100%;
+}
+.image{
+	display:inline-block;
+	width: 40%;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.image img{
+	padding-right: 2rem;
+}
+
+.information{
+	display:inline-block;
+	width: 60%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.information a{
+	text-decoration: none;
+}
+.image img{
+	/*margin-left: 5rem;*/
+	/*position: absolute;*/
+	/*display: block;*/
+	width: 4rem;
+	height: 4rem;
+}
+
+.footer-box p{
+	display: block;
+	font-size: 2.5rem;
+	font-weight: 400;
+	color: #000;
+	/*margin-right: 10rem;*/
+}
+
+.feedback p{
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #000;
+	/*margin-right: 10rem;*/
+}
+
+.social p{
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	color: #000;
+	/*margin-right: 10rem;*/
+}
+.social-box p
+{
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #000;
+}
+
+.feedback a{
+	text-decoration: none;
+	color:#000;
+}
+
+.btn{
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	display: inline-block;
+	padding: 1rem 2rem;
+	border: 1px solid #000;
+	border-radius: 50px;
+	transition: all 0.7s;
+}
+
+.btn:hover{
+	background-color: #000;
+	color: #c7c7c7;
+}
